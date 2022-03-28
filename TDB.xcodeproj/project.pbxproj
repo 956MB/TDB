@@ -42,6 +42,7 @@
 		686A94192740F8D00048EDF3 /* ATV_PRODUCTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686A94182740F8D00048EDF3 /* ATV_PRODUCTS.swift */; };
 		686A941B2740F9270048EDF3 /* SEMI_PRODUCTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686A941A2740F9270048EDF3 /* SEMI_PRODUCTS.swift */; };
 		6880C86227E4A1E0009B1CAC /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880C86127E4A1E0009B1CAC /* String+Ext.swift */; };
+		689194DA27F15DEC00124A58 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 689194D927F15DEC00124A58 /* .gitignore */; };
 		689E11A127EBA1A30018EC8D /* SwiftUITooltip in Frameworks */ = {isa = PBXBuildFile; productRef = 689E11A027EBA1A30018EC8D /* SwiftUITooltip */; };
 		689E11A327EBC6440018EC8D /* reference.txt in Resources */ = {isa = PBXBuildFile; fileRef = 689E11A227EBC6440018EC8D /* reference.txt */; };
 		68A8F70327E7F8C20040E159 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A8F70227E7F8C20040E159 /* CategoryView.swift */; };
@@ -92,6 +93,7 @@
 		686A94182740F8D00048EDF3 /* ATV_PRODUCTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATV_PRODUCTS.swift; sourceTree = "<group>"; };
 		686A941A2740F9270048EDF3 /* SEMI_PRODUCTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEMI_PRODUCTS.swift; sourceTree = "<group>"; };
 		6880C86127E4A1E0009B1CAC /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		689194D927F15DEC00124A58 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		689E11A227EBC6440018EC8D /* reference.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = reference.txt; sourceTree = "<group>"; };
 		68A8F70227E7F8C20040E159 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		68A8F70527E7FBD10040E159 /* SOLAR_ROOF_PRODUCTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLAR_ROOF_PRODUCTS.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		145F9B6826980125008E2185 = {
 			isa = PBXGroup;
 			children = (
+				689194D927F15DEC00124A58 /* .gitignore */,
 				145F9B7326980125008E2185 /* TDB */,
 				145F9B7226980125008E2185 /* Products */,
 				689E119F27EBA1A30018EC8D /* Frameworks */,
@@ -350,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				689194DA27F15DEC00124A58 /* .gitignore in Resources */,
 				145F9B7C26980126008E2185 /* Preview Assets.xcassets in Resources */,
 				680D773627E4A4C5003D1DE8 /* Localizable.strings in Resources */,
 				689E11A327EBC6440018EC8D /* reference.txt in Resources */,

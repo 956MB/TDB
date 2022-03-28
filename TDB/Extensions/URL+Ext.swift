@@ -9,22 +9,15 @@ import Foundation
 import SwiftUI
 
 enum ProductIdentifier: Int, Hashable {
-    /// grid
-//    case _s, _cybertruck, _3, _atv, _x, _roadster, _y, _semi
-    /// list
     case _s=0, _3=1, _x=2, _y=3, _cybertruck=4, _atv=5, _roadster=6, _semi=7, _roof=8, _panels=9, _wall=10, _autopilot=11
 }
-
-//enum PowerIdentifier: Int, Hashable {
-//    case _roof=0, _panels=1, _wall=2
-//}
-let modelStrings = [ ProductIdentifier._s:"F80F47E3A385", ProductIdentifier._3:"9591FCD651CE", ProductIdentifier._x:"2E499B1FEFB4", ProductIdentifier._y:"817677AB66B7", ProductIdentifier._cybertruck:"2680AF4B984E", ProductIdentifier._atv:"58A41D88F70D", ProductIdentifier._roadster:"F1C2DE94C57A", ProductIdentifier._semi:"921A0A098485", ProductIdentifier._roof:"8EA773BFB41B", ProductIdentifier._panels:"94AEA7F0923E", ProductIdentifier._wall:"E77FAC7CD93F", ProductIdentifier._autopilot:"425C10615782" ]
-let modelEnums = [ "F80F47E3A385":ProductIdentifier._s, "9591FCD651CE":ProductIdentifier._3, "2E499B1FEFB4":ProductIdentifier._x, "817677AB66B7":ProductIdentifier._y, "2680AF4B984E":ProductIdentifier._cybertruck, "58A41D88F70D":ProductIdentifier._atv, "F1C2DE94C57A":ProductIdentifier._roadster, "921A0A098485":ProductIdentifier._semi, "8EA773BFB41B":ProductIdentifier._roof, "94AEA7F0923E":ProductIdentifier._panels, "E77FAC7CD93F":ProductIdentifier._wall, "425C10615782":ProductIdentifier._autopilot ]
-let yearStrings = [ "2022":"6F21", "2021":"4E0D", "2020":"A45F", "2019":"A393", "2018":"1CC9", "2017":"0CE8", "2016":"C47E", "2015":"A85A", "2014":"7A65", "2013":"96F2", "2012":"6A8B", "2011":"151C", "2010":"A22E", "2009":"98B3", "2008":"BB4F", "2007":"BD78" ]
-
 enum YearIdentifier: Hashable {
     case modelYearTrimItem(model: Int, year: String, trim: Int)
 }
+
+let modelStrings = [ ProductIdentifier._s:"F80F47E3A385", ProductIdentifier._3:"9591FCD651CE", ProductIdentifier._x:"2E499B1FEFB4", ProductIdentifier._y:"817677AB66B7", ProductIdentifier._cybertruck:"2680AF4B984E", ProductIdentifier._atv:"58A41D88F70D", ProductIdentifier._roadster:"F1C2DE94C57A", ProductIdentifier._semi:"921A0A098485", ProductIdentifier._roof:"8EA773BFB41B", ProductIdentifier._panels:"94AEA7F0923E", ProductIdentifier._wall:"E77FAC7CD93F", ProductIdentifier._autopilot:"425C10615782" ]
+let modelEnums = [ "F80F47E3A385":ProductIdentifier._s, "9591FCD651CE":ProductIdentifier._3, "2E499B1FEFB4":ProductIdentifier._x, "817677AB66B7":ProductIdentifier._y, "2680AF4B984E":ProductIdentifier._cybertruck, "58A41D88F70D":ProductIdentifier._atv, "F1C2DE94C57A":ProductIdentifier._roadster, "921A0A098485":ProductIdentifier._semi, "8EA773BFB41B":ProductIdentifier._roof, "94AEA7F0923E":ProductIdentifier._panels, "E77FAC7CD93F":ProductIdentifier._wall, "425C10615782":ProductIdentifier._autopilot ]
+let yearStrings = [ "2022":"6F21", "2021":"4E0D", "2020":"A45F", "2019":"A393", "2018":"1CC9", "2017":"0CE8", "2016":"C47E", "2015":"A85A", "2014":"7A65", "2013":"96F2", "2012":"6A8B", "2011":"151C", "2010":"A22E", "2009":"98B3", "2008":"BB4F", "2007":"BD78" ]
 
 
 // MARK: - Deeplink handle
