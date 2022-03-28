@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DisplayLink",
+        "repositoryURL": "https://github.com/timdonnelly/DisplayLink",
+        "state": {
+          "branch": null,
+          "revision": "e95f592a176246172324f10eb1bdc92f121d479f",
+          "version": "0.2.0"
+        }
+      },
+      {
+        "package": "GLTFSceneKit",
+        "repositoryURL": "https://github.com/frzi/GLTFSceneKit",
+        "state": {
+          "branch": null,
+          "revision": "589cac03b34a7f5103d14b3741bfcd8add417593",
+          "version": "0.3.1"
+        }
+      },
+      {
+        "package": "Model3DView",
+        "repositoryURL": "https://github.com/frzi/Model3DView.git",
+        "state": {
+          "branch": "main",
+          "revision": "db0b54213208d573a93ec853830eac60844eda86",
+          "version": null
+        }
+      },
+      {
+        "package": "SwiftUITooltip",
+        "repositoryURL": "https://github.com/quassummanus/SwiftUI-Tooltip.git",
+        "state": {
+          "branch": "main",
+          "revision": "0a1d5a6396562b71cdfd97c0ae54bbde2b0fbd57",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
