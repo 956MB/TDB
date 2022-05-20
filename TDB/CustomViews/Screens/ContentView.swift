@@ -35,6 +35,7 @@ struct ContentView: View {
                                 }
 
                                 if (self.useModels[index].products.count <= 1) {
+                                    // ONLY ONE MODEL, SKIP MODELS VIEW
                                     NavigationLink(destination: ProductView(matchProd: matchIndex, matchYear: 0, productData: self.useModels[index].products[0], modelId: self.useModels[index].productID), tag: index, selection: $modelCellSelected) {
                                         ModelCellList(index: matchIndex, list: self.useModels[index], disabled: modelDisabled, dot: (Int.random(in: 0..<2) != 0) ? true : false)
                 ////                                    ModelCellGrid(list: self.useModels[index], disabled: modelDisabled, dot: true)

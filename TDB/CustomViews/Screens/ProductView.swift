@@ -86,10 +86,8 @@ struct ProductView: View {
                                 ForEach(0 ..< self.product.trims.count) {
                                     Text(self.product.trims[$0].title)
                                 }
-                            }
-                            .pickerStyle(SegmentedPickerStyle())
-                        }
-                        .padding(.leading, 15).padding(.trailing, 15).padding(.top, 20).padding(.bottom, 5)
+                            }.pickerStyle(SegmentedPickerStyle())
+                        }.padding(.leading, 15).padding(.trailing, 15).padding(.top, 20).padding(.bottom, 5)
                     }
 
                     VStack(spacing: 0) {
@@ -100,8 +98,7 @@ struct ProductView: View {
                                 rowCount += self.product.sections[index].rows.count
                             }
                         }
-                    }
-                    .padding(.bottom, 40)
+                    }.padding(.bottom, 40)
                 }
 //                .debugBackground()
             }
