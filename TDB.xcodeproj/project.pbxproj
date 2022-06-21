@@ -96,6 +96,7 @@
 		686A941A2740F9270048EDF3 /* SEMI_PRODUCTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEMI_PRODUCTS.swift; sourceTree = "<group>"; };
 		6880C86127E4A1E0009B1CAC /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		689194D927F15DEC00124A58 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6896A9B92861B68B008DD93F /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		689E11A227EBC6440018EC8D /* reference.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = reference.txt; sourceTree = "<group>"; };
 		68A8F70227E7F8C20040E159 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		68A8F70527E7FBD10040E159 /* SOLAR_ROOF_PRODUCTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLAR_ROOF_PRODUCTS.swift; sourceTree = "<group>"; };
@@ -336,6 +337,7 @@
 				en,
 				Base,
 				fi,
+				ko,
 			);
 			mainGroup = 145F9B6826980125008E2185;
 			packageReferences = (
@@ -421,6 +423,7 @@
 			children = (
 				680D773727E4A4C5003D1DE8 /* en */,
 				680D773927E4A4C9003D1DE8 /* fi */,
+				6896A9B92861B68B008DD93F /* ko */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

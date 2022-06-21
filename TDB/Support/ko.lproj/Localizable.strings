@@ -1,0 +1,93 @@
+/*
+  Localizable.strings KO
+  TDB
+
+  Created by Trevor Bays on 3/18/22.
+
+*/
+
+"VEHICLES" = "차량";
+"POWER" = "힘";
+"SOFTWARE" = "소프트웨어";
+"Years" = "연령";
+
+"OVERVIEW" = "개요";
+"Manufacturer" = "제조업체";
+"Production" = "생산";
+"Code name" = "코드 네임";
+"Also called" = "또한 호출됩니다";
+"Assembly" = "집회";
+"Designer" = "디자이너";
+"Related" = "관련된";
+"Base price (US)" = "기본 가격 (미국)";
+"Predecessor" = "전임자";
+
+"BODY AND CHASSIS" = "몸과 섀시";
+"Class" = "수업";
+"Body style" = "바디 스타일";
+"Doors" = "문";
+"Seats" = "좌석";
+"Layout" = "형세";
+"Chassis" = "차대";
+"Roof" = "지붕";
+"Luggage" = "수화물";
+"Rear seat" = "뒷좌석";
+"Display" = "표시하다";
+"Instrument cluster" = "기기 클러스터";
+"Entry" = "기입";
+"Safety" = "안전";
+
+"SPECS" = "명세서";
+"Powertrain" = "파워 트레인";
+"Electric motor" = "전기 모터";
+"Transmission" = "전염";
+"Battery" = "배터리";
+"Range" = "범위";
+"Efficiency" = "능률";
+"DC Charging" = "DC 충전";
+"AC Charging" = "AC 충전";
+"AC charge time (10% -> 90%)" = "AC 충전 시간 (10% -> 90%)";
+"Power-to-weight" = "전력 대량";
+"Torque (peak)" = "토크 (피크)";
+"Acceleration 0–60 mph (0–97 km/h)" = "가속도 0–60 mph (0–97km/h)";
+"Acceleration 0–100 mph (0–160 km/h)" = "가속도 0–100mph (0–160km/h)";
+"Power (peak)" = "파워 (피크)";
+"Acceleration" = "가속";
+"Quarter Mile" = "1/4 마일";
+"Top speed" = "최고 속도";
+
+"DIMENSIONS" = "치수";
+"Wheelbase" = "휠베이스";
+"Length" = "길이";
+"Width" = "너비";
+"Height" = "키";
+"Payload" = "유효 탑재량";
+"Storage" = "저장";
+"Vault length" = "금고 길이";
+"Towing capacity" = "견인 용량";
+"Ground clearance" = "지상 허가";
+"Approach angle" = "접근 각도";
+"Departure angle" = "출발 각도";
+"Curb weight" = "연석 무게";
+
+"OPTIONS" = "옵션";
+"Paint" = "페인트";
+"Wheels" = "바퀴";
+"Interior" = "내부";
+
+"SIZES" = "크기";
+"Industry" = "산업";
+"Founded" = "설립";
+"Parent" = "부모의";
+"Production output" = "생산 출력";
+"Revenue" = "수익";
+"Tile/Power Warranty" = "타일/전력 보증";
+"Wind Rating" = "바람 등급";
+"Fire Rating" = "화재 등급";
+"Hail Rating" = "우박 등급";
+"Roof Pitch" = "지붕 피치";
+"Inverter Power" = "인버터 파워";
+"Small" = "작은";
+"Medium" = "중간";
+"Large" = "크기가 큰";
+"X-Large" = "X-LARGE";
