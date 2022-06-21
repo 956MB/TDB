@@ -34,7 +34,7 @@ let CYBERTRUCK_2022_PRODUCT = Product(
             ProductRow(title: "Manufacturer", values: ["Tesla, Inc."]),
             ProductRow(title: "Production", values: ["2021 (to commence)"]),
             ProductRow(title: "Also called", values: ["Cybrtrk"]),
-//            ProductRow(title: "Assembly", values: ["United States: Fremont, California (Tesla Factory)\nChina: Shanghai (Gigafactory 3)"]),
+//            ProductRow(title: "local_assembly_row", values: ["United States: Fremont, California (Tesla Factory)\nChina: Shanghai (Gigafactory 3)"]),
             ProductRow(title: "Designer", values: ["Franz von Holzhausen\nSahm Jafari\nIan Kettle\nWooTak Kim\nJulien Bilodeau"]),
             ProductRow(title: "Base price (US)", values: ["$39,900", "$49,900", "$69,900"]),
         ]),

@@ -29,17 +29,17 @@ let AUTOPILOT_PRODUCT = Product(
         ProductTrim(title: "Dual Motor", index: 1)
     ],
     sections: [
-        ProductSection(header: "OVERVIEW", rows: [
-            ProductRow(title: "Manufacturer", values: ["Tesla, Inc."]),
-            ProductRow(title: "Production", values: ["2022 (to commence)"]),
+        ProductSection(header: "local_overview_header", rows: [
+            ProductRow(title: "local_manufacturer_row", values: ["Tesla, Inc."]),
+            ProductRow(title: "local_production_row", values: ["2022 (to commence)"]),
 //            ProductRow(title: "Also called", values: ["Cybrtrk"]),
-//            ProductRow(title: "Assembly", values: ["United States: Fremont, California (Tesla Factory)\nChina: Shanghai (Gigafactory 3)"]),
-            ProductRow(title: "Designer", values: ["Franz von Holzhausen"]),
-            ProductRow(title: "Base price (US)", values: ["$200,000", "$250,000"]),
+//            ProductRow(title: "local_assembly_row", values: ["United States: Fremont, California (Tesla Factory)\nChina: Shanghai (Gigafactory 3)"]),
+            ProductRow(title: "local_designer_row", values: ["Franz von Holzhausen"]),
+            ProductRow(title: "local_base_price_row", values: ["$200,000", "$250,000"]),
             ProductRow(title: "Predecessor", values: ["Tesla Roadster (first generation)"]),
         ]),
-        ProductSection(header: "BODY AND CHASSIS", rows: [
-            ProductRow(title: "Class", values: ["Sports car/Grand tourer (S)"]),
+        ProductSection(header: "local_body_and_chassis_header", rows: [
+            ProductRow(title: "local_class_row", values: ["Sports car/Grand tourer (S)"]),
             ProductRow(title: "Body style", values: ["2-door coupe"]),
             ProductRow(title: "Doors", values: ["2"]),
             ProductRow(title: "Seats", values: ["4"]),
@@ -99,7 +99,7 @@ let AUTOPILOT_PRODUCTS = ProductList(
     ],
     years: ["6F21":0],
     yearsSpan: "2022 (to commence)",
-    productDisabled: false,
+    productDisabled: true,
     useHeader: "SOFTWARE",
     productID: ProductIdentifier._autopilot,
     categoryImage: "display" // network, camera.metering.multispot, display

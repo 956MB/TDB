@@ -70,7 +70,7 @@ struct CategoryHeader: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
-            Text(useText)
+            Text(useText.localized())
                 .font(.system(size: 14))
                 .foregroundColor(.secondary)
         }
