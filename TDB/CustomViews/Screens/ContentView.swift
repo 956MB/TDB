@@ -56,7 +56,6 @@ struct ContentView: View {
                         .onReceive(self.deeplinkNotif.$model, perform: { model in
                             if (model != -1) {
                                 self.modelCellSelected = model
-//                                print("MODELFIRST \(model)")
                             }
                         })
                         /// Scrollview reader
@@ -68,28 +67,10 @@ struct ContentView: View {
                                 )
                             }
                         )
-                        ///
-//                        .onPreferenceChange(
-//                            ViewOffsetKey.self,
-//                            perform: { value in
-//                                print("offset: \(value)") // offset: 1270.3333333333333 when User has reached the bottom
-//                                print("height: \(scrollViewSize.height)") // height: 2033.3333333333333
-//
-//                                if value >= (scrollViewSize.height - wholeSize.height) - 48 {
-//                                    print("User has reached the bottom of the ScrollView.")
-//                                } else {
-//                                    print("not reached.")
-//                                }
-//                            }
-//                        )
                     }
                 }
                 .padding(.top, -10)
                 .coordinateSpace(name: spaceName)
-//                .safeAreaInset(edge: .top, spacing: 0) {
-//                    Color.black.frame(height: 48)
-//                }
-//                .navigationBarTitle("Models")
                 .toolbar {
                     HStack(alignment: .center, spacing: 15) {
                         ToolbarButton(buttonImage: "questionmark", buttonSize: 17, buttonAction: {  })
@@ -113,45 +94,44 @@ struct ContentView: View {
 // MARK: Scroll view reading
 //
 struct ViewOffsetKey: PreferenceKey {
-  typealias Value = CGFloat
-  static var defaultValue = CGFloat.zero
-  static func reduce(value: inout Value, nextValue: () -> Value) {
-    value += nextValue()
-  }
+    typealias Value = CGFloat
+    static var defaultValue = CGFloat.zero
+    static func reduce(value: inout Value, nextValue: () -> Value) {
+        value += nextValue()
+    }
 }
 struct ChildSizeReader<Content: View>: View {
-  @Binding var size: CGSize
+    @Binding var size: CGSize
 
-  let content: () -> Content
-  var body: some View {
-    ZStack {
-      content().background(
-        GeometryReader { proxy in
-          Color.clear.preference(
-            key: SizePreferenceKey.self,
-            value: proxy.size
-          )
+    let content: () -> Content
+    var body: some View {
+        ZStack {
+            content().background(
+                GeometryReader { proxy in
+                    Color.clear.preference(
+                        key: SizePreferenceKey.self,
+                        value: proxy.size
+                    )
+                }
+            )
         }
-      )
+        .onPreferenceChange(SizePreferenceKey.self) { preferences in
+            self.size = preferences
+        }
     }
-    .onPreferenceChange(SizePreferenceKey.self) { preferences in
-      self.size = preferences
-    }
-  }
 }
 struct SizePreferenceKey: PreferenceKey {
-  typealias Value = CGSize
-  static var defaultValue: Value = .zero
+    typealias Value = CGSize
+    static var defaultValue: Value = .zero
 
-  static func reduce(value _: inout Value, nextValue: () -> Value) {
-    _ = nextValue()
-  }
+    static func reduce(value _: inout Value, nextValue: () -> Value) {
+        _ = nextValue()
+    }
 }
 
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-            .preferredColorScheme(.dark)
+        ContentView().preferredColorScheme(.dark)
     }
 }

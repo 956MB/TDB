@@ -100,14 +100,11 @@ struct ProductView: View {
                         }
                     }.padding(.bottom, 40)
                 }
-//                .debugBackground()
             }
             .padding(.top, 105) // TODO: ONLY IF NO IMAGES
 
             .toolbar {
                 HStack(alignment: .center, spacing: 15) {
-//                    ToolbarButton(buttonImage: "arrow.up.left.and.arrow.down.right", buttonSize: 17, buttonAction: { withAnimation(.spring()) { self.fullscreenPresented.toggle() } })
-//                        .padding(.top, 1)
                     ToolbarButton(isMenu: true, buttonImage: "square.and.arrow.up", buttonSize: 17, buttonAction: {  }, shareLink: self.copyProductViewLink())
                 }
             }
@@ -135,10 +132,8 @@ struct ProductView: View {
         /// Deeplink load trim
         .onReceive(self.deeplinkNotif.$trim, perform: { trim in
             if ((trim != -1) && (trim < self.product.trims.count)) {
-//                print("TRIMSECOND_SET \(trim)")
                 self.pickerIndex = trim
             } else {
-//                print("TRIMSECOND_RE \(trim)")
                 self.pickerIndex = 0
             }
         })

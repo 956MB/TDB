@@ -14,24 +14,7 @@ struct TDBApp: App {
     @State private var splashActive = true
 
     init() {
-//        let appearance = UINavigationBarAppearance()
-//        appearance.configureWithOpaqueBackground()
-//        appearance.backgroundColor          = .clear
-//        appearance.shadowColor              = .clear
-////        appearance.bartint
-//        appearance.titleTextAttributes      = [.foregroundColor: UIColor.label]
-//        appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.label]
-//
-//        UINavigationBar.appearance().standardAppearance   = appearance
-//        UINavigationBar.appearance().compactAppearance    = appearance
-//        UINavigationBar.appearance().scrollEdgeAppearance = appearance
-//
         UINavigationBar.appearance().tintColor   = UIColor.label
-//        UITableView.appearance().backgroundColor = .black
-//
-//        let selected                                        = UIView()
-//        selected.backgroundColor                            = UIColor.black
-//        UITableViewCell.appearance().selectedBackgroundView = selected
     }
 
     var body: some Scene {
